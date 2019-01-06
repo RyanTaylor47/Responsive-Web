@@ -1,0 +1,362 @@
+.row > img{
+    width: auto;
+    height: 400px;
+}
+
+.mainPic {
+    height: auto;
+    max-width: 100%; 
+    
+}
+
+
+[class*='col-'] {
+    float: left;
+}
+
+
+@media(max-width: 800px) {
+    .col-m0 {
+        display: none !important;
+    }
+}
+
+@media(max-width: 500px) {
+    .col-s0 {
+        display: none !important;
+    }
+}
+
+.col-l1 {
+    width: 8.33%;
+}
+
+@media(max-width: 800px) {
+    .col-m1 {
+        width: 8.33%;
+    }
+}
+
+@media(max-width: 500px) {
+    .col-s1 {
+        width: 8.33%;
+    }
+}
+
+.col-l2 {
+    width: 16.66%;
+}
+
+@media(max-width: 800px) {
+    .col-m2 {
+        width: 16.66%;
+    }
+}
+
+@media(max-width: 500px) {
+    .col-s2 {
+        width: 16.66%;
+    }
+}
+
+.col-l3 {
+    width: 24.99%;
+}
+
+@media(max-width: 800px) {
+    .col-m3 {
+        width: 24.99%;
+    }
+}
+
+@media(max-width: 500px) {
+    .col-s3 {
+        width: 24.99%;
+    }
+}
+
+.col-l4 {
+    width: 33.32%;
+}
+
+@media(max-width: 800px) {
+    .col-m4 {
+        width: 33.32%;
+    }
+}
+
+@media(max-width: 500px) {
+    .col-s4 {
+        width: 33.32%;
+    }
+}
+
+
+.col-l5 {
+    width: 41.65%;
+}
+
+@media(max-width: 800px) {
+    .col-m5 {
+        width: 41.65%;
+    }
+}
+
+@media(max-width: 500px) {
+    .col-s5 {
+        width: 41.65%;
+    }
+}
+
+
+.col-l6 {
+    width: 49.98%;
+}
+
+@media(max-width: 800px) {
+    .col-m6 {
+        width: 49.98%;
+    }
+}
+
+@media(max-width: 500px) {
+    .col-s6 {
+        width: 49.98%;
+    }
+}
+
+
+.col-l7 {
+    width: 58.31%;
+}
+
+@media(max-width: 800px) {
+    .col-m7 {
+        width: 58.31%;
+    }
+}
+
+@media(max-width: 500px) {
+    .col-s7 {
+        width: 58.31%;
+    }
+}
+
+.col-l8 {
+    width: 66.64%;
+}
+
+@media(max-width: 800px) {
+    .col-m8 {
+        width: 66.64%;
+    }
+}
+
+@media(max-width: 500px) {
+    .col-s8 {
+        width: 66.64%;
+    }
+}
+
+.col-l9 {
+    width: 74.97%;
+}
+
+@media(max-width: 800px) {
+    .col-m9 {
+        width: 74.97%;
+    }
+}
+
+@media(max-width: 500px) {
+    .col-s9 {
+        width: 74.97%;
+    }
+}
+
+.col-l10 {
+    width: 83.30%;
+}
+
+@media(max-width: 800px) {
+    .col-m10 {
+        width: 83.30%;
+    }
+}
+
+@media(max-width: 500px) {
+    .col-s10 {
+        width: 83.30%;
+    }
+}
+
+.col-l11 {
+    width: 91.63%;
+}
+
+@media(max-width: 800px) {
+    .col-m11 {
+        width: 91.63%;
+    }
+}
+
+@media(max-width: 500px) {
+    .col-s11 {
+        width: 91.63%;
+    }
+}
+
+.col-l12 {
+    width: 100%;
+}
+
+@media(max-width: 800px) {
+    .col-m12 {
+        width: 100%;
+    }
+}
+
+@media(max-width: 500px) {
+    .col-s12 {
+        width: 100%;
+    }
+}
+
+
+ img {
+    max-width: 100%;
+ }
+ 
+ .pic1 {
+    width: 50%;
+    height: 100%;
+ }
+
+ .row:after {
+    content: "";
+    display: table;
+    clear: both;
+   }
+
+   body {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.15em;
+    background: url(http://blog.hostbaby.com/wp-content/uploads/2014/03/Trees_1920x1234.png);
+ }
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    width:100%; 
+    height: 80px; 
+    background: #333;
+    box-shadow: 0px 2px 4px gray;
+}
+
+#navbar {
+    width: 900px;
+    height: 80px;
+}
+
+#navbar>li { 
+    width: 290px;
+    list-style: none;
+    float: left;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+}
+
+li>a{
+    display: block;
+    color: white;
+    line-height: 80px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+li>a:hover,
+li>a:focus {
+    background: #749DA0;
+    color: #333;
+}
+
+@media screen and(max-width:1260) {
+    #navbar {
+        width: 900px;
+    }
+    
+    #navbar>li { 
+        width: 150px;
+    }  
+    
+}
+
+@media screen and (max-width: 1060px) {
+    #header {
+        width:100%; 
+        height: 60px; 
+        top: 80px;
+    }
+    
+    #navbar {
+        width: 100%;
+        height: 60px;
+        
+
+    }
+    
+    #navbar>li { 
+        width: 18%;
+    }
+    
+    li>a{
+        line-height: 60px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    #header {
+        width:100%; 
+        height: 60px; 
+    }
+    
+    #navbar {
+        width: 100%;
+        height: 60px;
+        float: none;
+        
+    }
+    
+    #navbar>li { 
+        width: 100%;
+        list-style: none;
+        float: none;
+        border-bottom: 1px solid #749DA0;
+        
+    }
+    
+    li>a{
+        display: block;
+        color: white;
+        line-height: 60px;
+        font-size: 16px;
+        background: #333;
+    }
+
+    .bringDownContent {
+        padding-top: 123px;
+    }
+}
+
+#navbar {
+    position: absolute;
+    z-index: 1;
+}
+
